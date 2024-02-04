@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Ice-cream Store</title>
+	</head>
+	<script
+		src="../dist/Main.js"
+		defer
+	></script>
+	<body>
+		<template id="order-template">
+			<h1 id="order-header">Your order:</h1>
+			<p id="order-waffle"></p>
+			<p id="order-toppings"></p>
+			<p>
+				Total:
+				<span
+					id="order-price"
+					style="color: rgb(62, 0, 168); font-size: large"
+				></span>
+				UAH.
+			</p>
+		</template>
+		<section id="order-section"></section>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+{
+	"name": "pettypescript",
+	"version": "1.0.0",
+	"description": "Pet project for practicing TypeScript",
+	"main": "index.js",
+	"scripts": {
+		"start": "tsc -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/PKuravskyi/PetTypeScript.git"
+	},
+	"keywords": [
+		"javascript",
+		"typescript"
+	],
+	"author": "Pavlo Kuravskyi",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/PKuravskyi/PetTypeScript/issues"
+	},
+	"homepage": "https://github.com/PKuravskyi/PetTypeScript#readme",
+	"dependencies": {
+		"typescript": "^5.3.3"
+	}
+}
