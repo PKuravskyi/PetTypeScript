@@ -4,7 +4,6 @@
 		"noImplicitAny": true,
 		"removeComments": true,
 		"sourceMap": true, // дозволяє дебажити ТайпСкріпт файли, а не їх зкомпільовані ДЖС файли
-		"outDir": "dist",
 		"lib": ["DOM", "ES2015"]
 	},
 	"include": ["./**/*.ts"],

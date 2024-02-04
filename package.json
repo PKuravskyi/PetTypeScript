@@ -4,7 +4,7 @@
 	"description": "Pet project for practicing TypeScript",
 	"main": "index.js",
 	"scripts": {
-		"start": "tsc -w"
+		"start:iceCream": "cd ./iceCreamStore && tsc -w"
 	},
 	"repository": {
 		"type": "git",
