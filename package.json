@@ -5,7 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"start:iceCream": "cd ./iceCreamStore && tsc -w",
-		"start:animalInterfaces": "cd ./animalInterfaces && tsc -w"
+		"start:animalInterfaces": "cd ./animalInterfaces && tsc -w",
+		"start:carAbstracts": "cd ./carAbstracts && tsc -w"
 	},
 	"repository": {
 		"type": "git",
