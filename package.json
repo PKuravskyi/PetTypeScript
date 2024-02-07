@@ -6,7 +6,8 @@
 	"scripts": {
 		"start:iceCream": "cd ./iceCreamStore && tsc -w",
 		"start:animalInterfaces": "cd ./animalInterfaces && tsc -w",
-		"start:carAbstracts": "cd ./carAbstracts && tsc -w"
+		"start:carAbstracts": "cd ./carAbstracts && tsc -w",
+		"start:functionGenerators": "cd ./functionGenerators && tsc -w"
 	},
 	"repository": {
 		"type": "git",
