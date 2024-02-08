@@ -10,7 +10,9 @@
 		"start:functionGenerators": "cd ./functionGenerators && tsc -w",
 		"start:dictionaryGenerics": "cd ./dictionaryGenerics && tsc -w",
 		"build:webpackTS": "cd ./webpackTS && webpack",
-		"start:webpackTS": "cd ./webpackTS && webpack serve"
+		"start:webpackTS": "cd ./webpackTS && webpack serve",
+		"build:carImports": "cd ./carImports && webpack",
+		"start:carImports": "cd ./carImports && webpack serve"
 	},
 	"repository": {
 		"type": "git",
