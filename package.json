@@ -2,13 +2,15 @@
 	"name": "pettypescript",
 	"version": "1.0.0",
 	"description": "Pet project for practicing TypeScript",
-	"main": "index.js",
+	"private": true,
 	"scripts": {
 		"start:iceCream": "cd ./iceCreamStore && tsc -w",
 		"start:animalInterfaces": "cd ./animalInterfaces && tsc -w",
 		"start:carAbstracts": "cd ./carAbstracts && tsc -w",
 		"start:functionGenerators": "cd ./functionGenerators && tsc -w",
-		"start:dictionaryGenerics": "cd ./dictionaryGenerics && tsc -w"
+		"start:dictionaryGenerics": "cd ./dictionaryGenerics && tsc -w",
+		"build:webpackTS": "cd ./webpackTS && webpack",
+		"start:webpackTS": "cd ./webpackTS && webpack serve"
 	},
 	"repository": {
 		"type": "git",
@@ -24,7 +26,11 @@
 		"url": "https://github.com/PKuravskyi/PetTypeScript/issues"
 	},
 	"homepage": "https://github.com/PKuravskyi/PetTypeScript#readme",
-	"dependencies": {
-		"typescript": "^5.3.3"
+	"devDependencies": {
+		"ts-loader": "^9.5.1",
+		"typescript": "^5.3.3",
+		"webpack": "^5.90.1",
+		"webpack-cli": "^5.1.4",
+		"webpack-dev-server": "^4.15.1"
 	}
 }
